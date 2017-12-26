@@ -1358,7 +1358,7 @@ height: 100%;
 padding: 0.75em 0.8em;
 }
 .widget {
-margin: 0 0 3em; }
+margin: 0 0 ; }
 .widget ul{
 margin:0;
 }
@@ -1963,6 +1963,7 @@ padding:0;
 -webkit-box-shadow: none;
 -moz-box-shadow: none;
 box-shadow: none;
+color: #22292c;
 }
 .footer .inner {
 clear: both;
@@ -2928,7 +2929,7 @@ margin: 0 1% 2% 0;
 /* Grid System */
 .d-all {float: left;padding-right: 0.75em;width: 100%;padding-right: 0;}
 .d-1of2 {float: left;padding-right: 0.75em;width: 50%; }
-.d-1of3 {float: left;padding-right: 0.75em;width: 33.33%; }
+.d-1of3 {float: left;padding-right: 0.75em;}
 .d-2of3 {float: left;padding-right: 0.75em;width: 66.66%; }
 .d-1of4 {float: left;padding-right: 0.75em;width: 25%; }
 .d-3of4 {float: left;padding-right: 0.75em;width: 75%; }
