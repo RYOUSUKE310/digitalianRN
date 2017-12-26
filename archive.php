@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<!-- カテゴリの表示をcontentの外に -->
 <div class="archivettl">
 <?php if (is_category()) { ?>
 <h1 class="archive-title h2">
