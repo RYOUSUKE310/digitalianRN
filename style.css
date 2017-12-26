@@ -2830,7 +2830,7 @@ width: 32.3%;
 /* Desktop Styles */
 /* --------------------------------------------- */
 @media only screen and (min-width: 1166px) {
-/* カテゴリ別ページの左マージン(PCのみ) */
+/* カテゴリ別ページのマージン(PCのみ) */
 .archivettl {
 	margin-left: 9%;
 }
