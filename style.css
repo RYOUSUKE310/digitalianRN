@@ -758,7 +758,7 @@ display: block;
 font-size: 10px;
 display: none;
 }
-#breadcrumb{font-size: .7em;margin-top: 1.5em;margin-bottom: 1.5em;padding: 1em;}
+#breadcrumb{font-size: .7em;margin-top: 1.5em;margin-bottom: 55px;padding: 1em;}
 #breadcrumb ul{
 margin:0;
 }
