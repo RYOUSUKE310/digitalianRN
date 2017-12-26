@@ -1,15 +1,16 @@
 <?php get_header(); ?>
 
-<!-- カテゴリの表示をcontentの外に -->
+
 <div class="archivettl">
 <?php if (is_category()) { ?>
 <h1 class="archive-title h2">
-<span class="gf"><?php _e( 'CATEGORY', 'moaretrotheme' ); ?></span> <?php single_cat_title(); ?>
+<span class="gf"><?php _e( '', 'moaretrotheme' ); ?><?php single_cat_title(); ?></span> 
 </h1>
 <?php } elseif (is_tag()) { ?>
 <h1 class="archive-title h2">
-<span class="gf"><?php _e( 'TAG', 'moaretrotheme' ); ?></span> <?php single_tag_title(); ?>
+<span class="gf"><?php _e( 'TAG', 'moaretrotheme' ); ?><?php single_tag_title(); ?></span> 
 </h1>
+
 <?php } elseif (is_author()) {
 global $post;
 $author_id = $post->post_author;
